@@ -1,0 +1,113 @@
+.main{
+  padding: 40px 16px 82px 16px;
+  background: url('../image/mountain.png'), lightgray 50% / cover no-repeat;
+  height: 100vh;
+  &__title{
+    text-transform: uppercase;
+    color: #FDFDFD;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 75px */
+    letter-spacing: 2px;
+    margin-bottom: 42px;
+  }
+  .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__list{
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item{
+    cursor: pointer;
+    color: #FDFDFD;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+  }
+  &__button{
+    cursor: pointer;
+    border: none;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #1A3E3E;
+    span{
+      color: #FDFDFD;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px; /* 125% */
+      letter-spacing: 0.192px;
+    };
+  }
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(3px);
+  height: 161px;
+  &__label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #FDFDFD;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+  }
+  &__select{
+    color: white;
+    background-color: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    padding: 0 16px;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid var(--wl-primary-primary-300, #E1E3E4);
+  }
+  &__button{
+    cursor: pointer;
+    border: none;
+    display: flex;
+    padding: 16px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #FDFDFD;
+    margin-bottom: 30px;
+    color: #1A3E3E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.192px;
+  }
+}
