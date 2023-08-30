@@ -1,11 +1,13 @@
 @import "section/main";
 @import "section/desc";
-*{
+@import "section/offers";
+@import "buttons";
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .content{
