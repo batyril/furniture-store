@@ -1,7 +1,8 @@
-@import "section/main";
-@import "section/desc";
-@import "section/offers";
-@import "buttons";
+@import 'section/main';
+@import 'section/desc';
+@import 'section/offers';
+@import 'buttons';
+@import 'section/directions';
 
 * {
   margin: 0;
@@ -10,9 +11,24 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.content{
+.title {
+  color: #f2be22;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 83.333% */
+}
+
+.mini-title {
+  color: #18121E;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 38.4px */
+  margin-bottom: 40px;
+}
+
+.content {
   max-width: 1200px;
   margin: 0 auto;
 }
-
-
