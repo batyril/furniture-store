@@ -3,6 +3,7 @@
 @import 'section/offers';
 @import 'buttons';
 @import 'section/directions';
+@import 'section/blog';
 
 * {
   margin: 0;
@@ -17,10 +18,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 83.333% */
+  margin-bottom: 10px;
 }
 
 .mini-title {
-  color: #18121E;
+  color: #18121e;
   font-size: 32px;
   font-style: normal;
   font-weight: 800;
