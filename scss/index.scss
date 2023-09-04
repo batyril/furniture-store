@@ -4,8 +4,11 @@
 @import 'buttons';
 @import 'section/directions';
 @import 'section/blog';
-
+@import 'section/photo-report';
 * {
+  img {
+    object-fit: cover;
+  }
   margin: 0;
   padding: 0;
   box-sizing: border-box;

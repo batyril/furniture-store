@@ -386,11 +386,52 @@
   /* 142.857% */
 }
 
+.photo-report {
+  display: flex;
+  min-height: 1000px;
+  padding: 100px 15px;
+}
+.photo-report .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-report__list {
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  grid-template-rows: repeat(2, 250px);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-areas: "photographer photographer map dubai " " sea mountains mountains notepad";
+}
+.photo-report__list .photo-report__photographer {
+  grid-area: photographer;
+}
+.photo-report__list .photo-report__map {
+  grid-area: map;
+}
+.photo-report__list .photo-report__dubai {
+  grid-area: dubai;
+}
+.photo-report__list .photo-report__mountains {
+  grid-area: mountains;
+}
+.photo-report__list .photo-report__notepad {
+  grid-area: notepad;
+}
+.photo-report__list .photo-report__sea {
+  grid-area: sea;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+* img {
+  object-fit: cover;
 }
 
 .title {
