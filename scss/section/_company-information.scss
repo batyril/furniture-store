@@ -1,0 +1,17 @@
+.company-information {
+  background: #18121e;
+  min-height: 66px;
+  display: flex;
+  align-items: center;
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+  }
+}
