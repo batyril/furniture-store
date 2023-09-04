@@ -1,0 +1,39 @@
+.photo-report {
+  display: flex;
+  min-height: 1000px;
+  padding: 100px 15px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__list {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    grid-template-rows: repeat(2, 250px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-areas:
+      'photographer photographer map dubai '
+      ' sea mountains mountains notepad';
+    .photo-report__photographer {
+      grid-area: photographer;
+    }
+    .photo-report__map {
+      grid-area: map;
+    }
+    .photo-report__dubai {
+      grid-area: dubai;
+    }
+    .photo-report__mountains {
+      grid-area: mountains;
+    }
+    .photo-report__notepad {
+      grid-area: notepad;
+    }
+    .photo-report__sea {
+      grid-area: sea;
+    }
+  }
+}
